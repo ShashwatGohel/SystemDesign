@@ -20,16 +20,16 @@ Components of a System :
 
 ### High Level Design v/s Low Level Design : ##
 1. High Level Design : 
-    -Service
-    -Databases
-    -Caches
-    -LoadBalancer
-    -Queues
+    - Service
+    - Databases
+    - Caches
+    - LoadBalancer
+    - Queues
 2. Low Level Design :
-    -Classes
-    -Objects
-    -Interfaces
-    -Patterns
+    - Classes
+    - Objects
+    - Interfaces
+    - Patterns
 
 ---
 ### Steps For Answering System Design Question : 
@@ -61,23 +61,28 @@ Components of a System :
 ---
 ### Common Question for Interview 
 
-1. What is System Design ?
+## 1. What is System Design?
+
 System Design is the process of designing the architecture, components, data flow, and scalability of a software system.
+## 2. Difference between HLD and LLD?
 
-2. Difference between HLD and LLD ? 
-HLD deals with Services, Databas, Cache, Load Balancer, Queses, whereas LLD deals with the classes, Objects, Interfaces and the patterns.
+HLD (High-Level Design) deals with Services, Databases, Cache, Load Balancers, Queues, and overall system architecture.
 
-3. What are the Major components of System Design ?
-The major components of System Design are 
-- Client 
+LLD (Low-Level Design) deals with Classes, Objects, Interfaces, Design Patterns, and implementation-level details.
+
+## 3. What are the Major Components of System Design?
+
+The major components of System Design are:
+
+- Client
 - Backend
 - Database
 - Queue
-- LoadBalancer
+- Load Balancer
 - Storage
 - Cache
 
-4. Design the URL Shortner ? 
+4. ## Design the URL Shortner ? 
 - User: Url Creator, URL Visitor
 - data : OriginalLink, TimeStamp,clickCount, shortCode
 - APIs : POST to create a short link, GET api to open the short link 
