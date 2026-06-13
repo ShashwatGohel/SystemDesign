@@ -17,7 +17,8 @@ Components of a System :
 -Queue : Handle Backend tasks 
 
 ---
-**High Level Design v/s Low Level Design : **
+
+### High Level Design v/s Low Level Design : ##
 1. High Level Design : 
     -Service
     -Databases
@@ -31,7 +32,7 @@ Components of a System :
     -Patterns
 
 ---
-**Steps For Answering System Design Question : 
+### Steps For Answering System Design Question : 
 
 1. Gather Requirements
 2. Estimate Scale
@@ -43,13 +44,13 @@ Components of a System :
 8. Discuss Trade-offs
 
 ---
-*Whenever we see a System ask : *
+### Whenever we see a System ask : 
 1. What are the Users Doing 
 2. Where is the Data Stored
 3. What becomes slow first 
 4. How will it scale
 
-Real world Example : College Canteen System 
+### Real world Example : College Canteen System 
 - User : Student 
 - Client : Order Counter
 - Backend : Workiers (Canteen Staff) 
@@ -82,8 +83,8 @@ The major components of System Design are
 - APIs : POST to create a short link, GET api to open the short link 
 - database : ONe Database is enough (MySQL, PostgreSQL, MongoDB) we need to store the Key - Value pair only.
 
-**Important Point : 
-***When the Question is about , what happens when the system grows from 100 users to 10Million Users : 
+## Important Point : 
+### When the Question is about , what happens when the system grows from 100 users to 10Million Users : 
 Potential Bottelnecks are: 
 - Application Server
 - Database 
