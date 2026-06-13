@@ -69,13 +69,13 @@ HLD deals with Services, Databas, Cache, Load Balancer, Queses, whereas LLD deal
 
 3. What are the Major components of System Design ?
 The major components of System Design are 
--Client 
--Backend
--Database
--Queue
--LoadBalancer
--Storage
--Cache
+- Client 
+- Backend
+- Database
+- Queue
+- LoadBalancer
+- Storage
+- Cache
 
 4. Design the URL Shortner ? 
 - User: Url Creator, URL Visitor
