@@ -8,13 +8,13 @@ System Design helps us understand how a software system should be built and how 
 
 ---
 Components of a System : 
--Client : example Mobile App, Website, Desktop App
--Backend Server : handles the business logic , authentication, APIs
--Database : Storing of the data
--Cache : Store frequently accessed data
--Storage : stores images, Videos, Documents
--Load Balancer : Distribution of the Traffic
--Queue : Handle Backend tasks 
+- Client : example Mobile App, Website, Desktop App
+- Backend Server : handles the business logic , authentication, APIs
+- Database : Storing of the data
+- Cache : Store frequently accessed data
+- Storage : stores images, Videos, Documents
+- Load Balancer : Distribution of the Traffic
+- Queue : Handle Backend tasks 
 
 ---
 
