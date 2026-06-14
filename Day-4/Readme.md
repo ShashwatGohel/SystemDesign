@@ -608,16 +608,16 @@ Cons:
 
 ```mermaid
 mindmap
-root((Scaling))
+  root((Scaling))
     Vertical Scaling
-        Bigger Server
-        Easy
-        Hardware Limit
-        SPOF
+      Bigger Server
+      Easy
+      Hardware Limit
+      SPOF
     Horizontal Scaling
-        More Servers
-        Load Balancer
-        High Availability
-        Fault Tolerance
-        Better Scalability
-``
+      More Servers
+      Load Balancer
+      High Availability
+      Fault Tolerance
+      Better Scalability
+```
