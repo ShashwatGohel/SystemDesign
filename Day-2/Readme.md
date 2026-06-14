@@ -114,12 +114,12 @@ In simple words:
 
 # Functional vs Non-Functional Requirements
 
-| Functional Requirements | Non-Functional Requirements |
-|------------------------|----------------------------|
-| User can upload photo | Upload should be fast |
-| User can send message | Message delivery should be low latency |
-| User can shorten URL | Service should support millions of URLs |
-| User can order food | Service should be highly available |
+| Functional Requirements | Non-Functional Requirements             |
+| ----------------------- | --------------------------------------- |
+| User can upload photo   | Upload should be fast                   |
+| User can send message   | Message delivery should be low latency  |
+| User can shorten URL    | Service should support millions of URLs |
+| User can order food     | Service should be highly available      |
 
 ---
 
