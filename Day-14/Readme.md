@@ -290,11 +290,11 @@ Write Scaling
 
 # Quick Comparison
 
-| Replication | Sharding |
-|------------|-----------|
-| Copies Data | Splits Data |
-| Same Data Everywhere | Different Data Everywhere |
-| Read Scaling | Write Scaling |
+| Replication              | Sharding                  |
+| ------------------------ | ------------------------- |
+| Copies Data              | Splits Data               |
+| Same Data Everywhere     | Different Data Everywhere |
+| Read Scaling             | Write Scaling             |
 | Read Bottleneck Solution | Write Bottleneck Solution |
 
 ---
