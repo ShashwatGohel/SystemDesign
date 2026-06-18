@@ -1,9 +1,3 @@
-%%{init: {
-"flowchart": {
-"curve": "stepAfter"
-}
-}}%%
-
 flowchart TB
 
     USER[User]
