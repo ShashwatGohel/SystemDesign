@@ -1,26 +1,37 @@
-flowchart TB
+```mermaid
+flowchart TD
 
-    USER[User]
+    U[User]
 
     LB[Load Balancer]
 
     AG[API Gateway]
 
-    USER --> LB
+    US[User Service]
+    PS[Post Service]
+    CS[Comment Service]
+    LS[Like Service]
+    NS[Notification Service]
+    FS[Feed Service]
+    MS[Media Service]
+
+    UDB[(User DB)]
+    PDB[(Post DB)]
+    CDB[(Comment DB)]
+    LDB[(Like DB)]
+
+    REDIS[(Redis Cache)]
+
+    OS[(Object Storage)]
+
+    CDN[CDN]
+
+    MQ[Message Queue]
+
+    SR[Service Registry]
+
+    U --> LB
     LB --> AG
-
-    %% Services Layer
-    subgraph SERVICES
-        direction TB
-
-        US[User Service]
-        PS[Post Service]
-        CS[Comment Service]
-        LS[Like Service]
-        FS[Feed Service]
-        MS[Media Service]
-        NS[Notification Service]
-    end
 
     AG --> US
     AG --> PS
@@ -29,42 +40,27 @@ flowchart TB
     AG --> FS
     AG --> MS
 
-    %% Databases Layer
-    UDB[(User DB)]
-    PDB[(Post DB)]
-    CDB[(Comment DB)]
-    LDB[(Like DB)]
-    REDIS[(Redis Cache)]
-
     US --> UDB
     PS --> PDB
     CS --> CDB
     LS --> LDB
 
-    FS --> REDIS
-    REDIS --> PDB
-
-    %% Media Layer
-    OS[(Object Storage)]
-    CDN[CDN]
-
     MS --> OS
-    OS --> CDN
-    CDN --> USER
-
-    %% Async Layer
-    MQ[Message Queue]
 
     PS --> MQ
     MQ --> NS
 
-    %% Service Discovery
-    SR[Service Registry]
+    FS --> REDIS
+    REDIS --> PDB
 
-    US -.-> SR
-    PS -.-> SR
-    CS -.-> SR
-    LS -.-> SR
-    FS -.-> SR
-    MS -.-> SR
-    NS -.-> SR
+    OS --> CDN
+    CDN --> U
+
+    US -. Register .-> SR
+    PS -. Register .-> SR
+    CS -. Register .-> SR
+    LS -. Register .-> SR
+    FS -. Register .-> SR
+    NS -. Register .-> SR
+    MS -. Register .-> SR
+```
