@@ -568,14 +568,14 @@ Page 500
 
 # Offset vs Cursor Pagination
 
-| Feature | Offset | Cursor |
-|----------|----------|----------|
-| Easy To Implement | ✅ | ❌ |
-| Infinite Scroll | ❌ | ✅ |
-| Jump To Page 500 | ✅ | ❌ |
-| Large Scale Systems | ❌ | ✅ |
-| Instagram Feed | ❌ | ✅ |
-| Search Results | ✅ | ❌ |
+| Feature             | Offset | Cursor |
+| ------------------- | ------ | ------ |
+| Easy To Implement   | ✅     | ❌     |
+| Infinite Scroll     | ❌     | ✅     |
+| Jump To Page 500    | ✅     | ❌     |
+| Large Scale Systems | ❌     | ✅     |
+| Instagram Feed      | ❌     | ✅     |
+| Search Results      | ✅     | ❌     |
 
 ---
 
