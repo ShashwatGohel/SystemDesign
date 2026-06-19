@@ -654,13 +654,13 @@ Single Control Point
 
 # Choreography vs Orchestration
 
-| Choreography | Orchestration |
-|------------|------------|
-| Event Driven | Coordinator Driven |
-| No Central Controller | Saga Orchestrator |
-| Decentralized | Centralized |
-| Harder To Debug | Easier To Debug |
-| Simpler Setup | More Control |
+| Choreography           | Orchestration          |
+| ---------------------- | ---------------------- |
+| Event Driven           | Coordinator Driven     |
+| No Central Controller  | Saga Orchestrator      |
+| Decentralized          | Centralized            |
+| Harder To Debug        | Easier To Debug        |
+| Simpler Setup          | More Control           |
 | Good For Small Systems | Good For Large Systems |
 
 ---
