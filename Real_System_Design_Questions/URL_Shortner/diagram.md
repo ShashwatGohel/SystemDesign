@@ -3,21 +3,21 @@
 ```mermaid
 flowchart TB
 
-    USER["👤 User"]
+    USER[" User"]
 
-    LB["⚖️ Load Balancer"]
+    LB[" Load Balancer"]
 
-    URLS["🔗 URL Service"]
+    URLS[" URL Service"]
 
-    REDIS[("⚡ Redis Cache")]
+    REDIS[(" Redis Cache")]
 
-    DB[("🗄️ URL Database")]
+    DB[(" URL Database")]
 
-    KAFKA["📨 Kafka"]
+    KAFKA[" Kafka"]
 
-    ANALYTICS["📊 Analytics Service"]
+    ANALYTICS[" Analytics Service"]
 
-    ADB[("📈 Analytics Database")]
+    ADB[(" Analytics Database")]
 
     USER -->|"Create URL / Redirect"| LB
 
@@ -47,17 +47,17 @@ flowchart TB
 ```mermaid
 flowchart LR
 
-    U["👤 User"]
+    U[" User"]
 
-    LB["⚖️ Load Balancer"]
+    LB[" Load Balancer"]
 
-    S["🔗 URL Service"]
+    S[" URL Service"]
 
-    DB["🗄️ Database"]
+    DB[" Database"]
 
-    B62["🔠 Base62 Encoder"]
+    B62[" Base62 Encoder"]
 
-    R["⚡ Redis"]
+    R[" Redis"]
 
     U --> LB
 
@@ -81,15 +81,15 @@ flowchart LR
 ```mermaid
 flowchart LR
 
-    U["👤 User"]
+    U[" User"]
 
-    LB["⚖️ Load Balancer"]
+    LB[" Load Balancer"]
 
-    S["🔗 URL Service"]
+    S[" URL Service"]
 
-    R["⚡ Redis"]
+    R[" Redis"]
 
-    DB["🗄️ Database"]
+    DB[" Database"]
 
     U --> LB
 
@@ -113,15 +113,15 @@ flowchart LR
 ```mermaid
 flowchart LR
 
-    U["👤 User Click"]
+    U[" User Click"]
 
-    S["🔗 URL Service"]
+    S[" URL Service"]
 
-    K["📨 Kafka"]
+    K[" Kafka"]
 
-    A["📊 Analytics Service"]
+    A[" Analytics Service"]
 
-    DB["📈 Analytics DB"]
+    DB[" Analytics DB"]
 
     U --> S
 
