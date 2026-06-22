@@ -1,4 +1,4 @@
-# Practice Question 04 - Design a Notification System
+# Practice Question 02 - Design a Notification System
 
 ## Interview Question
 
