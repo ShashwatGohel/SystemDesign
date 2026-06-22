@@ -16,38 +16,38 @@ The main reason for this repository is to provide a structured, practical, and p
 
 ## Day-Wise Content
 
-| Day    | Topic                                                       | Folder                           |
-| ------ | ----------------------------------------------------------- | -------------------------------- | ----------------- |
-| Day-01 | What is System Design                                       | [Open](./Day-01/)                |
-| Day-02 | Functional Requirements vs Non-Functional Requirements      | [Open](./Day-02/)                |
-| Day-03 | Scalability Fundamentals                                    | [Open](./Day-03/)                |
-| Day-04 | Vertical Scaling vs Horizontal Scaling                      | [Open](./Day-04/)                |
-| Day-05 | Availability, Reliability, Latency & Throughput             | [Open](./Day-05/)                |
-| Day-06 | Bottlenecks & System Design Trade-Offs                      | [Open](./Day-06/)                |
-| Day-07 | Requirement Gathering & System Design Framework             | [Open](./Day-07/)                |
-| Day-08 | Load Balancers                                              | [Open](./Day-08/)                |
-| Day-09 | Caching Fundamentals                                        | [Open](./Day-09/)                |
-| Day-10 | Redis & Cache Aside Pattern                                 | [Open](./Day-10/)                |
-| Day-11 | Database Fundamentals & Database Selection                  | [Open](./Day-11/)                |
-| Day-12 | SQL vs NoSQL (Deep Dive)                                    | [Open](./Day-12/)                |
-| Day-13 | Database Replication & Read Replicas                        | [Open](./Day-13/)                |
-| Day-14 | Database Sharding & Partitioning                            | [Open](./Day-14/)                |
-| Day-15 | Content Delivery Networks (CDN)                             | [Open](./Day-15/)                |
-| Day-16 | Message Queues & Producer Consumer Pattern                  | [Open](./Day-16/)                |
-| Day-17 | Storage Systems & File Storage Design                       | [Open](./Day-17/)                |
-| Day-18 | API Design for Large Systems                                | [Open](./Day-18/)                |
-| Day-19 | Authentication & Authorization Systems                      | [Open](./Day-19/)                |
-| Day-20 | Session Management & Rate Limiting                          | [Open](./Day-20/)                |
-| Day-21 | Logging, Monitoring & Metrics                               | [Open](./Day-21/)                |
-| Day-22 | Microservices Architecture                                  | [Open](./Day-22/)                |
-| Day-23 | Service Discovery & Service Registry                        | [Open](./Day-23/)                |
-| Day-24 | Distributed Transactions & Saga Pattern                     | [Open](./Day-24/)                |
-| Day-25 | Event Driven Architecture (EDA)                             | [Open](./Day-25/)                |
-| Day-26 | Kafka vs RabbitMQ                                           | Message Queue vs Event Streaming | [Open](./Day-26/) |
-| Day-27 | Kafka Internal Architecture                                 | [Open](./Day-27/)                |
-| Day-28 | Security & Database Optimization                            | [Open](./Day-28/)                |
-| Day-29 | Distributed Systems & Architecture Tradeoffs                | [Open](./Day-29/)                |
-| Day-30 | Advanced Distributed Systems & Architecture Decision Making | [Open](./Day-30/)                |
+| Day | Topic | Folder |
+| --- | --- | --- |
+| Day-01 | What is System Design | [Day-01](./Day-01/) |
+| Day-02 | Functional Requirements vs Non-Functional Requirements | [Day-02](./Day-02/) |
+| Day-03 | Scalability Fundamentals | [Day-03](./Day-03/) |
+| Day-04 | Vertical Scaling vs Horizontal Scaling | [Day-04](./Day-04/) |
+| Day-05 | Availability, Reliability, Latency & Throughput | [Day-05](./Day-05/) |
+| Day-06 | Bottlenecks & System Design Trade-Offs | [Day-06](./Day-06/) |
+| Day-07 | Requirement Gathering & System Design Framework | [Day-07](./Day-07/) |
+| Day-08 | Load Balancers | [Day-08](./Day-08/) |
+| Day-09 | Caching Fundamentals | [Day-09](./Day-09/) |
+| Day-10 | Redis & Cache Aside Pattern | [Day-10](./Day-10/) |
+| Day-11 | Database Fundamentals & Database Selection | [Day-11](./Day-11/) |
+| Day-12 | SQL vs NoSQL (Deep Dive) | [Day-12](./Day-12/) |
+| Day-13 | Database Replication & Read Replicas | [Day-13](./Day-13/) |
+| Day-14 | Database Sharding & Partitioning | [Day-14](./Day-14/) |
+| Day-15 | Content Delivery Networks (CDN) | [Day-15](./Day-15/) |
+| Day-16 | Message Queues & Producer Consumer Pattern | [Day-16](./Day-16/) |
+| Day-17 | Storage Systems & File Storage Design | [Day-17](./Day-17/) |
+| Day-18 | API Design for Large Systems | [Day-18](./Day-18/) |
+| Day-19 | Authentication & Authorization Systems | [Day-19](./Day-19/) |
+| Day-20 | Session Management & Rate Limiting | [Day-20](./Day-20/) |
+| Day-21 | Logging, Monitoring & Metrics | [Day-21](./Day-21/) |
+| Day-22 | Microservices Architecture | [Day-22](./Day-22/) |
+| Day-23 | Service Discovery & Service Registry | [Day-23](./Day-23/) |
+| Day-24 | Distributed Transactions & Saga Pattern | [Day-24](./Day-24/) |
+| Day-25 | Event Driven Architecture (EDA) | [Day-25](./Day-25/) |
+| Day-26 | Kafka vs RabbitMQ / Message Queue vs Event Streaming | [Day-26](./Day-26/) |
+| Day-27 | Kafka Internal Architecture | [Day-27](./Day-27/) |
+| Day-28 | Security & Database Optimization | [Day-28](./Day-28/) |
+| Day-29 | Distributed Systems & Architecture Tradeoffs | [Day-29](./Day-29/) |
+| Day-30 | Advanced Distributed Systems & Architecture Decision Making | [Day-30](./Day-30/) |
 
 ## Additional Section
 
