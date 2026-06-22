@@ -1,4 +1,4 @@
-# Practice Question 03 - Design a URL Shortener (Bit.ly / TinyURL)
+# Practice Question 01 - Design a URL Shortener (Bit.ly / TinyURL)
 
 ## Interview Question
 
